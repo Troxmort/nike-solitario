@@ -3,3 +3,52 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-image: url('../img/Fondo2\ 3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    min-width: 32rem;
+    padding: 2rem 1rem;
+}
+
+.header-responsive-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.responsive-menu-container {
+    position: absolute;
+    color: white;
+}
+
+.responsive-logo-container img{
+    width: 80%;
+}
+
+.nav-container li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-icon-container {
+    display: none;
+}
+
+.header-login-container {
+    display: none;
+}
+
