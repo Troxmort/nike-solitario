@@ -19,6 +19,7 @@ body {
 }
 
 header {
+    position: relative;
     width: 100%;
     min-width: 32rem;
     padding: 2rem 1rem;
@@ -32,16 +33,52 @@ header {
 
 .responsive-menu-container {
     position: absolute;
+    right: 0;
+    font-size: 3rem;
+}
+
+.responsive-menu-container a {
     color: white;
+    text-decoration: none;
 }
 
 .responsive-logo-container img{
     width: 80%;
 }
 
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10rem 0 10rem;
+    background-color: #131313;
+    text-align: center;
+}
+
 .nav-container li {
-    text-decoration: none;
     list-style: none;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.nav-container li a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 0.1rem solid #37FDE8;
+    padding-bottom: 1rem;
+}
+
+.nike-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #37FDE8;
+    text-decoration: none;
+    color: black;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    font-size: 2rem;
 }
 
 .header-icon-container {
