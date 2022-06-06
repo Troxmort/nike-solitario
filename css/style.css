@@ -23,6 +23,7 @@ header {
     width: 100%;
     min-width: 32rem;
     padding: 2rem 1rem;
+    z-index: 9999;
 }
 
 .header-responsive-container {
