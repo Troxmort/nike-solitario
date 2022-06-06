@@ -37,9 +37,10 @@ header {
     font-size: 3rem;
 }
 
-.responsive-menu-container a {
+.responsive-menu-container{
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .responsive-logo-container img{
@@ -51,9 +52,23 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    padding: 10rem 0 10rem;
+    padding: 0 0 10rem;
     background-color: #131313;
     text-align: center;
+    transform: translateX(-100%);
+    transition: transform 0.3s;;
+}
+
+.nav-skip {
+    color: white;
+    font-size: 3rem;
+    padding: 2rem 2rem 0 0;
+    margin-bottom: 8rem;
+    text-align: right;
+}
+
+nav.active {
+    transform: translateX(0);
 }
 
 .nav-container li {
@@ -71,7 +86,7 @@ nav {
 
 .nike-button {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     background-color: #37FDE8;
     text-decoration: none;
     color: black;
