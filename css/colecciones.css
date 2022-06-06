@@ -1,0 +1,55 @@
+.main-title-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title-content h1 {
+
+    color: white;
+    font-size: 3rem;
+}
+
+.title-content .title-invierno {
+    color: #37FDE8;
+}
+
+.title-content p {
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+
+}
+
+.main-sneaker-container {
+    width: 100%;
+}
+
+.main-sneaker-container .sneaker-img {
+    width: 100%;
+    text-align: center;
+}
+.sneaker-content p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.sneaker-price-container {
+    display: flex;
+}
+
+.sneaker-price-container p {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.sneaker-price-container .nike-button-edit {
+    font-size: 1rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    padding: 0.5rem 0.5rem;
+}
