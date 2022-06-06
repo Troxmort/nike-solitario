@@ -104,3 +104,54 @@ nav.active {
     display: none;
 }
 
+main {
+    padding: 2rem;
+}
+
+.main-hero-container {
+    width: 100%;
+    text-align: center;
+}
+
+.hero-title-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 9rem;
+}
+
+.hero-title-content h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+.hero-title-content p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.hero-info {
+    color: #37FDE8;
+    font-size: 5rem;
+    padding-top: 2.7rem;
+    font-weight: 600;
+}
+
+.hero-sneaker img {
+    display: inline-block;
+    width: 100%;
+}
+
+.hero-end-container p {
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.hero-end-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(217, 217, 217, 0.50);
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+}
