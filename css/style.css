@@ -14,7 +14,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -177,7 +177,12 @@ footer {
     margin-bottom: 2rem;
 }
 
+.footer-derechos-container {
+    padding-bottom: 2rem;
+}
+
 .footer-derechos-container a {
     color: white;
     text-decoration: none;
+    margin-bottom: 10rem;
 }
