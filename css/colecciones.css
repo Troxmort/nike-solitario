@@ -29,6 +29,10 @@
     width: 100%;
     text-align: center;
 }
+
+.sneaker-content {
+    margin-left: 2rem;
+}
 .sneaker-content p {
     color: white;
     font-size: 2rem;
