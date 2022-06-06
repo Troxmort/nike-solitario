@@ -6,3 +6,7 @@ document.querySelector('.responsive-menu-container').addEventListener('click', f
 document.querySelector('.nav-skip').addEventListener('click', function(){
     nav.classList.toggle('active');
 })
+
+window.addEventListener('load', function(){
+    new Glider(document.querySelector('.carousel-list'))
+})
