@@ -8,5 +8,13 @@ document.querySelector('.nav-skip').addEventListener('click', function(){
 })
 
 window.addEventListener('load', function(){
-    new Glider(document.querySelector('.carousel-list'))
+    new Glider(document.querySelector('.carousel-list'), {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        draggable: true,
+        arrows: {
+          prev: '.carousel-anterior',
+          next: '.carousel-siguiente'
+        }
+    })
 })
