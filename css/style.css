@@ -57,7 +57,9 @@ nav {
     background-color: #131313;
     text-align: center;
     transform: translateX(-100%);
-    transition: transform 0.3s;;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+
 }
 
 .nav-skip {
@@ -69,6 +71,7 @@ nav {
 }
 
 nav.active {
+    opacity: 1;
     transform: translateX(0);
 }
 
