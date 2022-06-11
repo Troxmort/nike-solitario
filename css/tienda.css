@@ -1,0 +1,133 @@
+.main-shop-title {
+    width: 100%;
+    text-align: center;
+}
+
+.main-shop-title h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.main-shop-title .shop-title-color {
+    color: #37FDE8;
+}
+
+.main-shop-title p {
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+}
+
+.main-shop-container {
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.img-container .img-content {
+    background-image: url('../img/Rectangle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+}
+
+.img-content img {
+    width: 100%;
+}
+
+.shop-content {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.shop-content .new-shop {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.shop-content h2 {
+    color: white;
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+.heartopi-container {
+    display: flex;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.heartopi-container .heart-container {
+    margin-right: 2rem;
+    color: #37FDE8;
+}
+
+.heartopi-container .heart-diff {
+    color: gray;
+}
+
+.heartopi-container .opi-container p {
+    color: white;
+}
+
+.shop-price {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.shop-pagos {
+    color: #37FDE8;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.shop-envios {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.shop-button {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.talle-text {
+    color: white;
+}
+
+.talles-content {
+    color: white;
+    width: 100%;
+    padding: 0.5rem;
+    border: 0.2rem solid white;
+    border-radius: 0.7rem;
+    background: transparent;
+    margin-top: 1rem;
+}
+
+.talles-content option {
+    background-color: #131313;
+}
+
+.main-shopdes-container {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    background-color: rgba(19, 19, 19, 0.6);
+}
+
+.shopes-content {
+    opacity: 1;
+}
+
+.shopes-content h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.shopes-content p {
+    color: white;
+}
