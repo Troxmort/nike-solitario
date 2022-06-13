@@ -181,3 +181,29 @@ footer {
     color: white;
     text-decoration: none;
 }
+
+@media (min-width: 900px) {
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .footer-redes-container {
+        padding: 0;
+    }
+
+    .footer-redes-container a {
+        margin-right: 2rem;
+    }
+
+    .footer-derechos-container::after {
+        content: "|";
+        color: white;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .footer-derechos-container {
+        padding-top: 0.5rem;
+    }
+}
