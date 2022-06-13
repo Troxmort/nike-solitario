@@ -1,0 +1,15 @@
+body {
+    background-image: url('../img/Fondo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-hero-container {
+    position: relative;
+}
+
+.hero-title-container {
+    position: absolute;
+    right: calc(50% - 30rem);
+}
